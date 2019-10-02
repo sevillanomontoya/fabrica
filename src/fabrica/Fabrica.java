@@ -11,5 +11,7 @@ public class Fabrica {
     
     private int numeroDeTrabajadores;
     private Date modelo;
+     
     
+    //afsdfsdfsdfgs
 }
