@@ -19,8 +19,9 @@ public class Fabrica {
         this.fechaDeIngesoDeLosTrabajadores = fechaDeIngesoDeLosTrabajadores;
         this.colorDeMaquinas = colorDeMaquinas;
         this.exporta = exporta;
-    }
+    }   
 
+ 
     public int getNumeroDeTrabajadores() {
         return numeroDeTrabajadores;
     }
