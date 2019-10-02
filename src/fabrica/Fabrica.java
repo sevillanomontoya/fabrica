@@ -21,7 +21,7 @@ public class Fabrica {
         this.exporta = exporta;
     }   
 
- 
+    
     public int getNumeroDeTrabajadores() {
         return numeroDeTrabajadores;
     }
