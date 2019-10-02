@@ -10,8 +10,7 @@ import java.util.Date;
 public class Fabrica {
     
     private int numeroDeTrabajadores;
-    private Date modelo;
-     
-    
-    //afsdfsdfsdfgs
+    private Date fechaDeIngesoDeLosTrabajadores;
+    private String colorDeMaquinas;
+    private boolean exporta;        
 }
