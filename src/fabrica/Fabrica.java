@@ -12,5 +12,45 @@ public class Fabrica {
     private int numeroDeTrabajadores;
     private Date fechaDeIngesoDeLosTrabajadores;
     private String colorDeMaquinas;
-    private boolean exporta;        
+    private Boolean exporta;        
+
+    public Fabrica(int numeroDeTrabajadores, Date fechaDeIngesoDeLosTrabajadores, String colorDeMaquinas, Boolean exporta) {
+        this.numeroDeTrabajadores = numeroDeTrabajadores;
+        this.fechaDeIngesoDeLosTrabajadores = fechaDeIngesoDeLosTrabajadores;
+        this.colorDeMaquinas = colorDeMaquinas;
+        this.exporta = exporta;
+    }
+
+    public int getNumeroDeTrabajadores() {
+        return numeroDeTrabajadores;
+    }
+
+    public void setNumeroDeTrabajadores(int numeroDeTrabajadores) {
+        this.numeroDeTrabajadores = numeroDeTrabajadores;
+    }
+
+    public Date getFechaDeIngesoDeLosTrabajadores() {
+        return fechaDeIngesoDeLosTrabajadores;
+    }
+
+    public void setFechaDeIngesoDeLosTrabajadores(Date fechaDeIngesoDeLosTrabajadores) {
+        this.fechaDeIngesoDeLosTrabajadores = fechaDeIngesoDeLosTrabajadores;
+    }
+
+    public String getColorDeMaquinas() {
+        return colorDeMaquinas;
+    }
+
+    public void setColorDeMaquinas(String colorDeMaquinas) {
+        this.colorDeMaquinas = colorDeMaquinas;
+    }
+
+    public Boolean getExporta() {
+        return exporta;
+    }
+
+    public void setExporta(Boolean exporta) {
+        this.exporta = exporta;
+    }
+
 }
