@@ -7,7 +7,7 @@ package fabrica;
 
 import java.util.Date;
 
-public class Carro {
+public class Fabrica {
     
     private int numeroDeTrabajadores;
     private Date modelo;
