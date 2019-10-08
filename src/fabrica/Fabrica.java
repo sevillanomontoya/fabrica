@@ -8,50 +8,42 @@ package fabrica;
 import java.util.Date;
 
 public class Fabrica {
-    
+           
     private int numeroDeTrabajadores;
     private Date fechaDeIngesoDeLosTrabajadores;
-    private String colorDeMaquinas;
+    private final String colorDeMaquinas;
     private Boolean exporta;        
-
+    private Date fechaDeInauguracion;
+                
     public Fabrica(int numeroDeTrabajadores, Date fechaDeIngesoDeLosTrabajadores, String colorDeMaquinas, Boolean exporta) {
         this.numeroDeTrabajadores = numeroDeTrabajadores;
         this.fechaDeIngesoDeLosTrabajadores = fechaDeIngesoDeLosTrabajadores;
         this.colorDeMaquinas = colorDeMaquinas;
         this.exporta = exporta;
-    }   
-
+        this.fechaDeInauguracion;
     
-    public int getNumeroDeTrabajadores() {
-        return numeroDeTrabajadores;
-    }
+        
+        
+    }      
+       public void VenderMercanciaAlExtranjero() {
+           exporta = true;                            
+       }
+       public void AumentoDePersonal() {
+           numeroDeTrabajadores += 200;        
+         } 
+        
+        
+    public void fabricar (int numeroDeEmpleados,int diasDeIngresoAdicionales)   
+        if(numeroDeEmpleados<0) {
+            System.out.println("Valor invalido");
+        }else{
+        int numeroDeEmpleados = 0;
+            if(numeroDeTrabajadores<numeroDeEmpleados){
+                System.out.println("Valor invalido");
+            }else{  
+                numeroDeTrabajadores = numeroDeEmpleados;
+                fechaDeIngesoDeLosTrabajadores += diasDeIngresoAdicionales;           
+                                                        
+}   
+      
 
-    public void setNumeroDeTrabajadores(int numeroDeTrabajadores) {
-        this.numeroDeTrabajadores = numeroDeTrabajadores;
-    }
-
-    public Date getFechaDeIngesoDeLosTrabajadores() {
-        return fechaDeIngesoDeLosTrabajadores;
-    }
-
-    public void setFechaDeIngesoDeLosTrabajadores(Date fechaDeIngesoDeLosTrabajadores) {
-        this.fechaDeIngesoDeLosTrabajadores = fechaDeIngesoDeLosTrabajadores;
-    }
-
-    public String getColorDeMaquinas() {
-        return colorDeMaquinas;
-    }
-
-    public void setColorDeMaquinas(String colorDeMaquinas) {
-        this.colorDeMaquinas = colorDeMaquinas;
-    }
-
-    public Boolean getExporta() {
-        return exporta;
-    }
-
-    public void setExporta(Boolean exporta) {
-        this.exporta = exporta;
-    }
-
-}
