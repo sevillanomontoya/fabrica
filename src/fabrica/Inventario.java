@@ -232,6 +232,10 @@ public class Inventario extends javax.swing.JFrame {
        jSpinner3.setValue(18);
        jTextField1.setText("");
        jCheckBox1.setSelected(true);
+       jSlider1.setExtent(HEIGHT);
+       jSpinner1.setValue(18);
+       jSpinner2.setValue(18);
+       jCheckBox2.setSelected(true);
        
     }//GEN-LAST:event_jButton1MouseClicked
 
